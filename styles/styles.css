@@ -1,0 +1,160 @@
+*{margin: 0;
+padding: 0;}
+
+body{
+    background-color: #7b00f5;
+}
+
+.container{
+
+width: 500px;
+height: auto;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: #c4b2d6;
+border: 2px solid #373737;
+border-radius: 10px;
+
+}
+
+.imput{
+    width: 250px;
+    height: 30px;
+margin: 20px;
+margin-left: 50px;
+background-color: #ffffff73;
+border: 0.5px solid #373737;
+border-radius: 2px;
+padding-left: 15px;
+outline: none;
+font-family: Cedarville Cursive;
+font-size: 16px;
+box-shadow: 1px 1px 2px 1px #616161;
+
+}
+
+.botao{
+width: 100px;
+height: 30px;
+margin: auto;
+background-color: #ffffff73;
+border: 0.5px solid #373737;
+border-radius: 2px;
+font-family: Cedarville Cursive;
+font-size: 16px;
+box-shadow: 1px 1px 2px 1px #616161;
+
+}
+
+
+.botao:hover{
+    background-color: #7b00f5;
+    color: #fff;
+    
+}
+
+.item-lista{
+height: 40px;
+width: 380px;
+margin: 20px 0;
+margin-left: 55px;
+background-color: #d4d4d4;
+border: none;
+list-style: none;
+border-radius: 5px;
+font-family: Cedarville Cursive;
+font-size: 16px;
+display: flex;
+}
+
+.item{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    float: left;
+    font-family: tahoma;
+    font-size: 16px;
+    text-align: left;
+}
+
+.trash{
+    
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: #e22b2b;
+    float: right;
+    background-color: #ffffff00;
+}
+
+.trash:hover{
+    cursor: pointer;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 2px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.rocket{
+
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: purple;
+    float: left;
+    background-color: #ffffff00;
+
+}
+.rocket:hover{
+
+    cursor: pointer;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 2px;
+    border-radius: 50%;
+    background-color: purple;
+    transition-duration: 1s;
+
+}
+
+.erro{
+ 
+    border: 0.5px solid red !important;
+
+}
+
+.erro::placeholder{
+    color: red;
+}
+.concluido{
+
+background-color: #7b00f5ec;
+transition-duration: 1.5s;
+}
+
+.completo{
+    
+    text-decoration: line-through;
+    opacity: 50%;
+    transition-duration: 1.5s;
+    
+}
+
+.arte{
+
+background-color:rgba(255, 255, 255, 0);
+color:#fff;
+cursor: pointer;
+}
+
+.arte:hover{
+   background-color: #dbdbdb; 
+   color: purple;
+}
